@@ -1,0 +1,12 @@
+1. Lay down all the cards on a rectangle table where you can view all of them. 
+2. Set each corner of the table for each suite: hearts, diamonds, spades, and clubs.
+3. Identify whether each card is a heart, diamond, spade, or a club. 
+4. Based on whether the card is a heart, diamond, spade, or a club, place them into their respective corners corresponding to the type they are.
+5. Once all 52 cards have been sorted by hearts, diamonds, spades, and clubs, go into each corner/group and separate the numbers from the rest of the group.
+6. With the numbers, compare each card to each other, and the least greatest will go on top of the one it was compared to. 
+7. Once all the cards have been sorted numerically, repeat steps 5-6 for the remaining groups.
+
+QUESTIONS
+1. I was missing how the deck was supposed to be sorted, how many cards there were in the deck, what types of cards they were (I made an assumption that they were standard cards). 
+2. Efficiency means having less steps to do a specific task.
+3. You can verify if the cards are sorted by checking through each suite pile to see if all the cards are in their correct groups and numerically sorted. 
