@@ -12,6 +12,6 @@ Welcome to CS 110. I look forward to working with you this semester. This is you
 
 Preferred Name: Tina 
 
-Discord username: tatertot
+Discord username: tatertot#5575
 
 REPL url: https://replit.com/@tinalenguyen/CS110 
