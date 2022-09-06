@@ -10,12 +10,12 @@ print(0 % 10)
 print(10 / 15)
 # the last answer is not rounded at the end correctly
 
-rate = int(input("What is the current exchange rate for Euros to Dollars?"))
+rate = float(input("What is the current exchange rate for Euros to Dollars?"))
 
-amount = int(input("What is the amount of currency you'll be exchanging?"))
+amount = float(input("What is the amount of currency you'll be exchanging?"))
 
 total = amount/rate
 result = total - 3
 
-print(result)
+print(round(result, 2))
 
