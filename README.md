@@ -14,4 +14,4 @@ Preferred Name: Tina
 
 Discord username: tatertot#5575
 
-REPL url: [https://replit.com/@tinalenguyen/CS110](https://replit.com/join/zqeaskuhyn-tinalenguyen) 
+REPL url: https://replit.com/join/zqeaskuhyn-tinalenguyen
