@@ -3,7 +3,7 @@ import random
 import pygame
 import math
 
-
+        
 #Part A
 window = turtle.Screen() # 2.  Create a screen
 window.bgcolor('lightblue')
@@ -58,23 +58,94 @@ surface = pygame.display.get_surface()
 
 coords = []
 num_sides = 3
-side_length = 20
-offset = 20
-x = 0
-y = 0
+side_length = 30
+offset = 100
 
-rectt = pygame.Rect((0, 0), (50,50))
-pygame.draw.rect(screen, "white", rectt)
-# for i in range(4):
-  
-#   theta = (2.0 * math.pi * num_sides) / num_sides
-#   print(theta)
-#   x += side_length * math.cos(theta) + offset
-#   y += side_length * math.sin(theta) + offset
-#   coords.append((x, y))
 
-# print("coords: ", coords)
-# pygame.draw.polygon(screen, "purple", coords)
-pygame.time.wait
+for i in range(3):
+  theta = (2.0 * math.pi * i) / num_sides
+  x = side_length * math.cos(theta) + offset
+  y = side_length * math.sin(theta) + offset
+  coords.append((x, y))
 
- 
+pygame.draw.polygon(surface, "purple", coords)
+pygame.display.flip()
+
+pygame.time.wait(3000)
+surface.fill("black")
+pygame.display.flip()
+''' Square '''
+
+coords.clear()
+num_sides = 4
+side_length = 30
+offset = 150
+
+for i in range(4):
+  theta = (2.0 * math.pi * i) / num_sides
+  x = side_length * math.cos(theta) + offset
+  y = side_length * math.sin(theta) + offset
+  coords.append((x, y))
+
+pygame.draw.polygon(surface, "red", coords)
+pygame.display.flip()
+
+pygame.time.wait(3000)
+surface.fill("black")
+
+''' Hexagon '''
+
+coords.clear()
+num_sides = 6
+side_length = 30
+offset = 125
+
+for i in range(6):
+  theta = (2.0 * math.pi * i) / num_sides
+  x = side_length * math.cos(theta) + offset
+  y = side_length * math.sin(theta) + offset
+  coords.append((x, y))
+
+pygame.draw.polygon(surface, "blue", coords)
+pygame.display.flip()
+
+pygame.time.wait(3000)
+surface.fill("black")
+
+''' Nonagon '''
+
+coords.clear()
+num_sides = 9
+side_length = 30
+offset = 200
+
+for i in range(9):
+  theta = (2.0 * math.pi * i) / num_sides
+  x = side_length * math.cos(theta) + offset
+  y = side_length * math.sin(theta) + offset
+  coords.append((x, y))
+
+pygame.draw.polygon(surface, "green", coords)
+pygame.display.flip()
+
+pygame.time.wait(3000)
+surface.fill("black")
+
+''' Circle '''
+
+coords.clear()
+num_sides = 360
+side_length = 30
+offset = 100
+
+for i in range(360):
+  theta = (2.0 * math.pi * i) / num_sides
+  x = side_length * math.cos(theta) + offset
+  y = side_length * math.sin(theta) + offset
+  coords.append((x, y))
+
+pygame.draw.polygon(surface, "pink", coords)
+pygame.display.flip()
+
+pygame.time.wait(3000)
+surface.fill("black")
