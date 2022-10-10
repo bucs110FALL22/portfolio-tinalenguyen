@@ -1,4 +1,5 @@
 import turtle
+import pygame
 import random
 
 window = turtle.Screen()
