@@ -10,5 +10,8 @@ def star_pyramid():
   for i in range(rows+1):
     print(i*"*")
 
+star_pyramid()
+rstar_pyramid() 
+
 
 
