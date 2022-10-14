@@ -5,7 +5,7 @@ window = turtle.Screen()
 
 def drawEqShape(turtleObj, num_sides, side_length):
   for i in range(num_sides):
-    theta = 180- (((num_sides-2)*180)/num_sides)
+    theta = 180 - (((num_sides-2)*180)/num_sides)
     turtleObj.forward(side_length)
     turtleObj.right(theta)
     window.delay(100)
